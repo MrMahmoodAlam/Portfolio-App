@@ -25,42 +25,44 @@ export default function Skills() {
 
                 <div className="sm:flex flex-row justify-evenly content-center sm:mt-16">
                     <div>
-                        <p className="mb-3 text-center md:text-xl lg:text-2xl" id="frontend-p frontend-h"><i
-                            className="ri-braces-fill mr-2"></i>Frontend Developer</p>
+                        <p className="mb-3 text-center md:text-xl lg:text-2xl" id="frontend-p frontend-h">
+                            <i className="ri-braces-fill mr-2"></i>Frontend Developer
+                        </p>
+                        
                         <div id="skill-div">
 
                             <div>
-                                <img src={html} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={html} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">HTML</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={css} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={css} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">CSS</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={javascript} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={javascript} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">JavaScript</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={react} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={react} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">React</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={tailwind} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={tailwind} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">Tailwind CSS</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={bootstrap} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={bootstrap} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">Bootstrap</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={git} className="p-3 bg-slate-200" alt='error'/>
+                                <img src={git} className="p-1 bg-slate-200" alt='error'/>
                                 <h5 className="font-medium text-center">Git</h5>
                                 <p>Intermediate</p>
                             </div>
@@ -72,12 +74,12 @@ export default function Skills() {
                             className="ri-quill-pen-line mr-2"></i>Web Designer</p>
                         <div id="web-design-div">
                             <div>
-                                <img src={xd} className="p-3 bg-slate-200 inline-block" alt='error'/>
+                                <img src={xd} className="p-1 bg-slate-200 inline-block" alt='error'/>
                                 <h5 className="font-medium text-center">Photoshop</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
-                                <img src={photoshop} className="p-3 bg-slate-200 inline-block" alt='error'/>
+                                <img src={photoshop} className="p-1 bg-slate-200 inline-block" alt='error'/>
                                     <h5 className="font-medium text-center">Adobe XD</h5>
                                     <p>Intermediate</p>
                             </div>
@@ -90,17 +92,17 @@ export default function Skills() {
                         Developer</h4>
                     <div id="backend-div">
                         <div>
-                            <img src={sql} className="p-3 bg-slate-200 inline-block" alt='error'/>
+                            <img src={sql} className="p-1 bg-slate-200 inline-block" alt='error'/>
                             <h5 className="font-medium">SQL</h5>
                             <p>Intermediate</p>
                         </div>
                         <div>
-                            <img src={python} className="p-3 bg-slate-200 inline-block" alt='error'/>
+                            <img src={python} className="p-1 bg-slate-200 inline-block" alt='error'/>
                             <h5 className="font-medium">Python</h5>
                             <p>Intermediate</p>
                         </div>
                         <div>
-                            <img src={MySQL} className="p-3 bg-slate-200 inline-block" alt='error'/>
+                            <img src={MySQL} className="p-1 bg-slate-200 inline-block" alt='error'/>
                             <h5 className="font-medium">MySQL</h5>
                             <p>Intermediate</p>
                         </div>

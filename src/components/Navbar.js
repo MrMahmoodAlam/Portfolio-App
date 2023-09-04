@@ -91,7 +91,7 @@ export default function Navbar() {
 
     return (
         <>
-            <div className='bg-white'>
+            <div>
                 <section id="nav-main-div" className="d-inline-block flex flex-row justify-around mt-5">
                     <div><a href="/"
                         className="lg:text-2xl font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">MAHMOOD ALAM
@@ -109,7 +109,7 @@ export default function Navbar() {
 
                     <div id='navlist' className="overflow-hidden">
                         <a className="px-4 py-2 mt-2 lg:text-xl font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                            href="/" id="home-list">Home</a>
+                            href="" id="home-list">Home</a>
                         <a className="px-4 py-2 mt-2 lg:text-xl font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                             href="#skills-section" id="skills-list" >Skills</a>
                         <a className="px-4 py-2 mt-2 lg:text-xl font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"

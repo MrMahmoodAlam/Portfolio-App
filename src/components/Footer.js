@@ -9,7 +9,7 @@ export default function Footer() {
                     <p className="mt-3 mb-10 lg:text-xl font-normal">Full Stack Developer</p>
 
                     <div>
-                        <a href="/" className="mr-10 hover:underline font-medium">Home</a>
+                        <a href="https://mrmahmoodalam.github.io/Portfolio-App/" className="mr-10 hover:underline font-medium">Home</a>
                         <a href="#skills-section" className="mr-10 hover:underline font-medium">Skills</a>
                         <a href="#project-section" className="hover:underline font-medium">Projects</a>
                     </div>
