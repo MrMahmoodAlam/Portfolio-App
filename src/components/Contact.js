@@ -11,12 +11,21 @@ export default function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        
+
 
         emailjs.sendForm('service_rpfspu3', 'template_key720o', form.current, 'p_Ki6I3Iqu1nErprE')
             .then((result) => {
+
                 new_style({
                     display : "inline-block"
                 })
+                let name = document.getElementById("user-name");
+                let email = document.getElementById("user-mail");
+                let message = document.getElementById("user-text");
+                name.value = ""
+                email.value = ""
+                message.value = ""
 
             }, (error) => {
                 console.log(error.text);
@@ -62,12 +71,12 @@ export default function Contact() {
 
                                 <fieldset className="text-left mb-3">
                                     <legend className="ml-5 px-2 font-medium">Name</legend>
-                                    <input type="text" placeholder="Write your names" id="user-name" name='user_name' />
+                                    <input type="text" placeholder="Write your names" id="user-name" name='user_name'/>
                                 </fieldset>
 
                                 <fieldset className="text-left mb-3">
                                     <legend className="ml-5 px-2 font-medium">Email</legend>
-                                    <input type="email" placeholder="Write your email" id="user-mail" name="user_email" />
+                                    <input type="email" placeholder="Write your email" id="user-mail" name="user_email"/>
                                 </fieldset>
 
                                 <fieldset className="text-left">
