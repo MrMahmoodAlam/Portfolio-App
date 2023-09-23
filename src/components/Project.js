@@ -34,7 +34,7 @@ export default function Project() {
                 <p className="text-lg font-normal text-center">Most recent work</p>
 
                 <div id="project-div" className="mt-16">
-                    <div>
+                    <div >
                         <img src={project1} alt='project error' />
                         <p className="mt-5">Web</p>
                         <h3 className="md:lg:text-xl font-semibold md:mb-4">Rockstar Website</h3>
