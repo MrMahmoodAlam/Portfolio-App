@@ -47,7 +47,7 @@ export default function Landing() {
                             <img src={profile_photo} id="profile-image" alt='error' />
                         </div>
 
-                        <div id="landing-right" ref={rightElement}>
+                        <div id="landing-right" >
                             <div className="text-right">
                                 <div className="mb-14" id="experience">
                                     <h3 className="mb-1 text-gray-500 lg:text-2xl font-medium">YEAR OF EXPERIENCE</h3>
