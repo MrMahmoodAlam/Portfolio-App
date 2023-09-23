@@ -75,12 +75,12 @@ export default function Skills() {
                         <div id="web-design-div">
                             <div>
                                 <img src={xd} className="p-1 bg-slate-200 inline-block" alt='error'/>
-                                <h5 className="font-medium text-center">Photoshop XD</h5>
+                                <h5 className="font-medium text-center">Adobe XD</h5>
                                 <p>Intermediate</p>
                             </div>
                             <div>
                                 <img src={photoshop} className="p-1 bg-slate-200 inline-block" alt='error'/>
-                                    <h5 className="font-medium text-center">Adobe Photoshop</h5>
+                                    <h5 className="font-medium text-center">Photoshop</h5>
                                     <p>Intermediate</p>
                             </div>
                         </div>
